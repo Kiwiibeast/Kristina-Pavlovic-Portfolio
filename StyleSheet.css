@@ -1,0 +1,94 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    background-color:white;
+}
+
+header{
+    width: 960px;
+    height: 120px;
+    text-align: center;
+    background-color: #ccc;
+    margin: 0 auto auto auto;
+    border: solid 1px black;
+}
+
+nav{
+    width: 960px;
+    height: 45px;
+    background-color: #ddd;
+    margin: 5px auto;
+    border: solid 1px black;
+}
+
+#wrapper{
+    width: 960px;
+    height: 600px;
+    background-color: purple;
+    margin: 0 auto 10px auto;
+    border: solid 1px black;
+}
+
+article{
+    width: 960px;
+    height: 1700px;
+    background-color:lightpink;
+    margin: auto auto auto auto;
+    text-align: center;
+    border: solid 1px black;
+}
+
+article > header {
+    width: 950px;
+    height: 80px;
+    background-color:pink;
+    margin: 0 auto auto auto;
+
+}
+
+article > section{
+    width: 643px;
+    height: 328px;
+    background-color: white;
+    margin: 5px 5px auto auto;
+    float: right;
+}
+
+article > aside{
+    width: 300px;
+    height: 660px;
+    background-color:lightblue;
+    float: left;
+    margin: 5px auto auto 5px;
+    align-content: center;
+    text-align: center;
+    border: solid 1px black;
+ }
+
+
+.Clearboth{
+    clear:both;
+}
+
+article > section portfolio{
+    width: 700px;
+    height: 660px;
+    background-color:darkgreen;
+    float: left;
+    margin: 5px auto auto 5px;
+    align-content: center;
+    text-align: center;
+    border: solid 1px black;
+ }
+
+
+footer{
+    width: 960px;
+    height: 25px;
+    background-color:gray;
+    margin: 0 auto auto auto;
+    border: solid 1px black;
+}
